@@ -1,0 +1,3 @@
+#Eres profesor y tienes una lista de alumnos. ¿Qué función del módulo random podrías usar para sacar un alumno aleatoriamente de la lista?
+import random
+v1=random.random['Arturo', 'Julio', 'Dani', 'Aurora', 'Roberto', 'Martina']
