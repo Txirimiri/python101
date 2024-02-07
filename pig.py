@@ -16,9 +16,9 @@ while True:
         else:
             print("Must be between 2 - 4 players.")
     else:
-        print("Invalid, try again.")
+        print("Invalid, try again!")
 
-        ########
+        
         
         
 
