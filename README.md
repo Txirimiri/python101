@@ -1,1 +1,13 @@
-# python101
+
+
+## Python 101
+-------------
+
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
+
