@@ -2,7 +2,8 @@
 
 
 repetir = "s"  # Inicialización del bucle principal
-while repetir != "n":
+
+while repetir != "n": # Bucle principal para solicitar edades
     edad =int(input("Cuál es tu edad? "))
     if edad < 18:
         print("menor de edad")
@@ -11,10 +12,11 @@ while repetir != "n":
     elif edad > 18:
         print("aceptable")
     else:
-        print("aceptable")    
-    repetir = input("Quieres continuar? (s, n) ")
+        print("aceptable")  
+# Preguntar si el usuario quiere continuar         
+    repetir = input("Quieres continuar? (s, n) ")                 
 
-
+ 
 
 
 
