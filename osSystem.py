@@ -1,11 +1,16 @@
 import os
 
-print(os.getcwd())
+# print(os.getcwd())
 
-print(os.listdir())
+# print(os.listdir())
 
-os.chdir("..") #("Python")
+# os.chdir("..") #("Python")
 
-print(os.getcwd())
+# print(os.getcwd())
  
-with open(fil) 
+
+os.mkdir("hola") #makes new folder
+os.chdir("hola")#enters the new folder into directory
+with open("filetest.txt", "w") as f: #creates new text file writing "hola" 
+    f.write("hola")
+
