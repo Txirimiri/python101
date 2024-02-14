@@ -8,6 +8,7 @@ import os
 
 # print(os.getcwd())
  
+ #os.rmdir()
 
 os.mkdir("hola") #makes new folder
 os.chdir("hola")#enters the new folder into directory
