@@ -89,8 +89,6 @@ print(s) """
 
 
 
-
-
 #pagina 24
 compra = ["manzana", "platanos", "kiwis"]
 print(compra)
