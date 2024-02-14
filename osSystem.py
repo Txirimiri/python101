@@ -7,3 +7,5 @@ print(os.listdir())
 os.chdir("..") #("Python")
 
 print(os.getcwd())
+ 
+with open(fil) 
