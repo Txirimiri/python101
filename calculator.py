@@ -1,14 +1,53 @@
 #caluclator app
-def add(n1, n2):
-    return n1 + n2
 
+def add(n1, n2):
+    """_summary_
+
+    Args:
+        n1 (_type_): _description_
+        n2 (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
+    return n1 + n2
+    
 def subtract(n1, n2):
+    """_summary_
+
+    Args:
+        n1 (_type_): _description_
+        n2 (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
+
     return n1 - n2
+   
 
 def multiply(n1, n2):
+    """_summary_
+
+    Args:
+        n1 (_type_): _description_
+        n2 (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
     return n1 * n2
 
 def divide(n1, n2):
+    """_summary_
+
+    Args:
+        n1 (_type_): _description_
+        n2 (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
     if n2 != 0:
         return n1 / n2
     else:
