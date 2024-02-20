@@ -1,32 +1,21 @@
 
- #input(int("Please enter two numbers: ")
-      
-#num1 = 
-#num2 = 
+n1 = int(input("Enter the first number: "))
+n2 = int(input("Enter the second number: "))
+op = input("Do you want to add, subtract, multiply, or divide? ")
 
+if op == "add":
+    result = add(n1, n2)
+elif op == "subtract":
+    result = subtract(n1, n2)
+elif op == "multiply":
+    result = multiply(n1, n2)
+elif op == "divide":
+    result = divide(n1, n2)
+else:
+    result = "Not a valid operation"
 
+print("Result:", result)
 
+ 
 
-n1=int(input("Introducir un numero?"))
-n2= int(input("Introducir otro numero"))
-op = input("Do you want to add, subtract, multiply or divide?")
-
-
-def calculate_answer(n1, n2, op):
-    if op == "subtract":
-        return n1 - n2
-    elif op == "add":
-        return n1 + n2
-    elif op == "multiply":
-        return n1 * n2
-    elif op == "divide":
-        return int(n1 / n2)
-    else:
-        return "Not a valid operation"
-    
-
-#import matbasic
-
-
-    ###if __name__=="__main__" double under
     
