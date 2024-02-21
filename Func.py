@@ -24,6 +24,8 @@ print(IsPar (10)==1)
     #return min(lista), max(lista) #option 1
 
 
+
+
 #def minmax2(*args):
     #return min(args), max(args) #option 2
 
@@ -50,4 +52,3 @@ def encontrarPalabra(texto):
 
 texto = "Me gustan los garbanzos."
 print(encontrarPalabra(texto))
-#
