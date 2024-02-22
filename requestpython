@@ -1,0 +1,15 @@
+import requests
+
+#r= requests.get('http://info.cern.ch/')  #'http://info.cern.ch/5 or Jon etc.
+#r = requests.get('http://jsonplaceholder.typicode.com/posts/1')
+#r = requests.get('https://api.restful-api.dev/objects')
+r = requests.get('https://cat-fact.herokuapp.com/facts')
+#r = requests.get('https://github.com/public-apis/public-apis?tab=readme-ov-file')
+print(r.status_code)
+
+lista =r.json()
+#print(r.text)
+#print(r.json())
+for cat in lista:
+        print(type(cat))
+        print(cat["text"])
