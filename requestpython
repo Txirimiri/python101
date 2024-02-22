@@ -13,3 +13,5 @@ lista =r.json()
 for cat in lista:
         print(type(cat))
         print(cat["text"])
+
+DevOps = CI / CD  github actions
