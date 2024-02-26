@@ -1,6 +1,15 @@
+beautifulsoup4==4.12.3
 certifi==2024.2.2
 charset-normalizer==3.3.2
+click==8.1.7
+colorama==0.4.6
 idna==3.6
+Languages==1.0.0
+libretranslatepy==2.1.1
+lxml==5.1.0
+plyer==2.1.0
 requests==2.31.0
+soupsieve==2.5
+translate==3.6.1
+translator==0.0.9
 urllib3==2.2.1
-
