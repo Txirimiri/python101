@@ -44,3 +44,13 @@ def resulta(x, y, op):
 if st.button("Calcular"): 
    st.write(f"The result is = {resulta(num1,num2,oper)}")
 
+add_slider = st.sidebar.slider('Select a range of values',
+        0.0, 100.0, (25.0, 75.0))
+
+lenguages = ("Java", "C#" , "Python")
+opcion = st.sidebar.selectbox("Seleccionar un lenguaje", lenguages)
+
+if opcion:
+    st.write(f"Has seclionnado :v: {opcion}")
+    
+# streamlit run streamlit_app.py    
