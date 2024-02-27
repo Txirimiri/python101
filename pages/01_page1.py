@@ -35,7 +35,7 @@ st.write(f"{st.session_state.counter} veces que pinchamos")
 
 # exec(s) # to inject code
 
-st.write(eval(10+10==20))
+st.write(eval("10+10==20"))
 st.write("Instructions :usar st.write() para imprimir :v: ")
 codigo = st.text_area('Introducir codigo')
 
