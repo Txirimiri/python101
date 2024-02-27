@@ -2,4 +2,5 @@
 
 import streamlit as st
 
-st.markdown
+name = st.text_input('Introducir tu nombre')
+
