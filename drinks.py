@@ -5,6 +5,7 @@ class Bebida:
             self.cantidad = cantidad
 
     def beber(self, ):
+        self.cantidad=self.cantidad-c
         print(f"Quiero ordenar {self.tipo} y en {self.cantidad} ml")
 
     
@@ -28,10 +29,10 @@ for i in range(3):
 for bebida in listaBebidas:
      print(bebida.tipo)
      print(bebida.cantidad)
-
-
-print(bebida) #__str__ dunder method
-bebida.mostrarBebida()
+     print(bebida) #__str__ dunder method
+     bebida.mostrarBebida()
+     bebida.beber(80)
+     print(bebida.cantidad)
 #imprimir todas las bebidas
 
     
