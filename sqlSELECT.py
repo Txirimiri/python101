@@ -1,6 +1,6 @@
 import sqlite3
 
-conn =sqlite3.connect('pelis.db')
+conn = sqlite3.connect('pelis.db')
 
 cur = conn.cursor()
 

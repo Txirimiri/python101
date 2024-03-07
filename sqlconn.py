@@ -13,3 +13,8 @@ cur.executemany("INSERT INTO Peliculas (id, nombre, duracion)VALUES (?, ?, ?);",
 
 conn.commit() #default not auto commit!!!!
 conn.close()
+
+cur = conn.cursor()
+sSQL 0 f"INSERT INTO Users "
+
+conn.execute("CREATE TABLE Users (id INTEGER PRIMARY KEY AUTOINCREMENT, )")
