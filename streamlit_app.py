@@ -1,4 +1,11 @@
 import streamlit as st
+import pandas as pd
+
+df2 = pd.read_csv("https://raw.githubusercontent.com/sivabalanb/Data-Analysis-with-Pandas-and-Python/master/fortune1000.csv")
+st.data_editor(df2)
+
+
+
 
 # st.title("Mi primer proyecto. A wee app by Kirstie.")
 # st.write("Hola")
@@ -51,6 +58,6 @@ lenguages = ("Java", "C#" , "Python")
 opcion = st.sidebar.selectbox("Seleccionar un lenguaje", lenguages)
 
 if opcion:
-    st.write(f"Has seclionnado :v: {opcion}")
+    st.write(f"Has selecionado :v: {opcion}")
     
 # streamlit run streamlit_app.py    
